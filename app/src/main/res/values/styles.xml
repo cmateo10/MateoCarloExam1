@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name = "powerbank">
+        <item name="android:layout_width">171dp</item>
+        <item name="android:layout_height">121dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:text">POWER BANK</item>
+    </style>
+
+    <style name="capacity">
+        <item name="android:text">10400 mAh Cell Capacity</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="indicator">
+        <item name="android:text">LED Battery Indicator</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="buy">
+        <item name="android:text">BUY</item>
+    </style>
+
+    <style name="cancel">
+        <item name="android:text">CANCEL</item>
+    </style>
+
+</resources>
